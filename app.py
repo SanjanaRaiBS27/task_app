@@ -10,7 +10,7 @@ Scss(app)
 
 
 app.config["SQLALCHEMY_DATABASE_URI"]="sqlite:///databases.db"
-app.config["SQLALCHEMY_TRACK_MODIFICAION"]=False
+app.config["SQLALCHEMY_TRACK_MODIFICAIONS"]=False
 db=SQLAlchemy(app)
 #data class-row of data
 class MyTask(db.Model):
